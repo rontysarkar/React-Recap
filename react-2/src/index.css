@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.parant{
+  width: 100%;
+  min-height:100vh;
+  background-color: rgb(9, 9, 9);
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card{
+  width: 280px;
+  height: 330px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.top img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: solid 1px #dadada;
+  padding: 5px;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 5px;
+  gap: 5px;
+  background-color: transparent;
+  color: #b1b1b1;
+}
+
+.center h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+.center h3 span{
+  font-size: 10px;
+  font-weight: 400px;
+  color: #b8b8b8;
+}
+
+.center h2{
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+.center .tag{
+  display: flex;
+  margin-top: 10px ;
+  gap: 5px;
+}
+
+.center .tag h4{
+  font-size: 12px;
+  background-color: #dadada;
+  font-weight: 500;
+  color: black;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #cacaca;
+  padding-top: 10px;
+}
+
+.bottom button{
+  background-color: #111;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  column-width: 600;
+  border: none;
+}
+
+.bottom h3{
+  font-size: 17px;
+}
+.bottom p{
+  font-size: 10px;
+  color: #b1b1b1;
+}
+
+
