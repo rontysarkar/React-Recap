@@ -1,9 +1,19 @@
 import React from 'react'
 
-const RightCard = () => {
+const RightCard = ({user}) => {
   return (
-    <div className='h-full bg-blue-950 w-80 rounded-4xl overflow-hidden'>
-        <img className='h-full object-cover' src="https://plus.unsplash.com/premium_photo-1661777467209-d1fb895cd266?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmVzc2lvbmFsJTIwd29tYW4lMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
+    <div className='h-full w-80 shrink-0  rounded-4xl relative overflow-hidden'>
+        <img className='h-full object-cover ' src={user.img} alt="" />
+        <div className='absolute top-0 left-0 w-full h-full  p-10 flex flex-col justify-between'>
+          <h1 className='w-10 h-10 bg-white flex items-center justify-center rounded-full text-2xl font-medium'>1</h1>
+          <div>
+            <p className='text-xl text-white mb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloribus, suscipit molestiae illum modi ratione!</p>
+            <div className='flex justify-between'>
+              <button className=' bg-blue-400 py-2 p-16 rounded-full text-1xl text-white font-semibold'>{user.tag} </button>
+              <button className='bg-blue-400 py-1 px-6 rounded-full text-2xl text-white'><i class="ri-arrow-right-line"></i></button>
+            </div>
+          </div>
+        </div>
     </div>
   )
 }

@@ -1,11 +1,11 @@
 import HeroSection from './HeroSection'
 import Navbar from './Navbar'
 
-const Section1 = () => {
+const Section1 = ({users}) => {
   return (
     <div className=' w-full h-screen'>
         <Navbar/>
-        <HeroSection/>
+        <HeroSection users={users}/>
     </div>
   )
 }
