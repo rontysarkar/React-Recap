@@ -4,7 +4,7 @@ import RightContent from './RightContent'
 
 const HeroSection = ({users}) => {
   return (
-    <div className='w-full h-full p-16 flex justify-between gap-12 '>
+    <div className='w-full h-full p-16 flex justify-between gap-12  '>
         <LeftContent/>
         <RightContent users={users} />
     </div>

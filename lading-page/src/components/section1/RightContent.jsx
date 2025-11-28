@@ -4,7 +4,7 @@ import RightCard from './RightCard'
 const RightContent = ({users}) => {
   console.log(users)
   return (
-    <div className='h-full  p-16 overflow-x-auto  flex flex-nowrap gap-8 '>
+    <div id='right' className='h-full  p-16 overflow-x-auto  flex flex-nowrap gap-8 '>
         {
           users.map(function(elem){
             return <RightCard user = {elem}/>

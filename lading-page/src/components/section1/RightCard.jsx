@@ -7,10 +7,10 @@ const RightCard = ({user}) => {
         <div className='absolute top-0 left-0 w-full h-full  p-10 flex flex-col justify-between'>
           <h1 className='w-10 h-10 bg-white flex items-center justify-center rounded-full text-2xl font-medium'>1</h1>
           <div>
-            <p className='text-xl text-white mb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloribus, suscipit molestiae illum modi ratione!</p>
+            <p className='text-xl text-white mb-10 text-shadow-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloribus, suscipit molestiae illum modi ratione!</p>
             <div className='flex justify-between'>
-              <button className=' bg-blue-400 py-2 p-16 rounded-full text-1xl text-white font-semibold'>{user.tag} </button>
-              <button className='bg-blue-400 py-1 px-6 rounded-full text-2xl text-white'><i class="ri-arrow-right-line"></i></button>
+              <button style={{backgroundColor:user.color}} className='  py-2 px-10 rounded-full text-1xl text-white font-semibold'>{user.tag} </button>
+              <button style={{backgroundColor:user.color}} className=' py-1 px-6 rounded-full text-2xl text-white'><i class="ri-arrow-right-line"></i></button>
             </div>
           </div>
         </div>
