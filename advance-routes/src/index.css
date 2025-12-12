@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+h1{
+  font-size: 50px;
+  color: rgb(16, 12, 12);
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  text-decoration: underline;
+}
